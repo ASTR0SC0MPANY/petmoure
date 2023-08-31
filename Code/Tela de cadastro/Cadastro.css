@@ -1,0 +1,72 @@
+/*.main{
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.cadastro{
+    float: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    justify-content: center;
+    border-right: #000 solid 1px;
+    height: 100%;
+    width: 50%;
+    background-color: #DE9E36CF;
+}
+
+img{
+    height: 100px;
+    width: 100%;;
+}*/
+
+body{
+    overflow: hidden;
+}
+.wrapper{
+    width: 100%;
+    height: 100vh;
+}
+
+.inputcadastro{
+    background-color: rgb(222, 158, 54, 0.81);
+}
+
+.password img{
+    width: 40px;
+    opacity: 70%;
+    position: absolute;
+    margin-left: 260px;
+}
+
+.requisitos{
+    font-size: 10px;
+    display: flex;
+    justify-content: start;
+    margin-left: -300;
+    
+}
+
+.cadastro{
+    display: flex;
+    float: left;
+    width: 50%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-right: #000 solid 1px;
+    height: 100%;
+    width: 50%;
+    background-color: #ffffff;
+
+}
+
+.imagemdospets img{
+    justify-content: center;
+    float: left;
+    width: 49%;
+}
