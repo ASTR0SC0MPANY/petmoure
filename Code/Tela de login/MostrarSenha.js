@@ -1,3 +1,5 @@
+/*Esse é o script responsável por fazer a função que irá mostrar a senha */
+
 function mostrarSenha(){
     var inputPass = document.getElementById('password')
     var btnShowPass = document.getElementById('btn-senha')

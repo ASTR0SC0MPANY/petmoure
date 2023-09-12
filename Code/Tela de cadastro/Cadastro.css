@@ -1,29 +1,3 @@
-/*.main{
-    width: 100vw;
-    height: 90vh;
-    display: flex;
-    flex-direction: row;
-}
-
-
-.cadastro{
-    float: left;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 0;
-    justify-content: center;
-    border-right: #000 solid 1px;
-    height: 100%;
-    width: 50%;
-    background-color: #DE9E36CF;
-}
-
-img{
-    height: 100px;
-    width: 100%;;
-}*/
-
 body{
     overflow: hidden;
 }
@@ -32,8 +6,12 @@ body{
     height: 100vh;
 }
 
-.inputcadastro{
+input{
     background-color: rgb(222, 158, 54, 0.81);
+}
+
+input::placeholder{
+    color: rgb(12, 12, 12);
 }
 
 .password img{
@@ -58,15 +36,22 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border-right: #000 solid 1px;
     height: 100%;
     width: 50%;
     background-color: #ffffff;
 
 }
 
+.informes{
+    font-size: 12px;
+    justify-content: center;
+    text-align: center;
+    letter-spacing: 0.3
+}
+
 .imagemdospets img{
     justify-content: center;
     float: left;
     width: 49%;
+    background-size: cover;
 }
