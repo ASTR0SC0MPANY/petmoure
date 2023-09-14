@@ -20,4 +20,4 @@
 ---
 
 ### FLUXO DE TELAS
-<img src=".github/profile/fluxodetelas.png">
+<img src="/.github/profile/fluxodetelas.png">
