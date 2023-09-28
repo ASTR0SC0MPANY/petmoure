@@ -1,3 +1,5 @@
+const express = require("express");
+
 /*O Script abaixo possui a função de fazer a autenticação para login de usuário
 Com o usuário cadastrado no servidor do firebase, o script teria a função de reconhecer
 o que foi escrito no formulário(input) que pede os e-mails e senhas. Depois do usuário ter
@@ -24,6 +26,8 @@ function Login(){
         window.location.href="../Home/Home.html";
         console.log("que beleza")
     }).catch(error => {
-        alert('se lascou')
+        alert('você errou sua senha ou não possui um cadastro')
     });
-    }
+    }const app = express();
+exports.app = app;
+
