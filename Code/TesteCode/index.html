@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Leonid</title>
+    <script src="https://kit.fontawesome.com/a8ab2d9b4d.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="css/colors.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/login-container.css">
+    <link rel="stylesheet" href="css/form-container.css">
+    <link rel="stylesheet" href="css/form.css">
+    <link rel="stylesheet" href="css/form-title.css">
+    <link rel="stylesheet" href="css/form-social.css">
+    <link rel="stylesheet" href="css/social-icon.css">
+    <link rel="stylesheet" href="css/form-input-container.css">
+    <link rel="stylesheet" href="css/form-input.css">
+    <link rel="stylesheet" href="css/form-button.css">
+    <link rel="stylesheet" href="css/overlay-container.css">
+    <link rel="stylesheet" href="css/overlay.css">
+    <link rel="stylesheet" href="css/mobile-text.css ">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;700&display=swap" rel="stylesheet">
+
+
+
+<script src="https://www.gstatic.com/firebasejs/10.3.1/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.3.1/firebase-auth-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.3.1/firebase-firestore-compat.js"></script>
+<script src="js/cadastro.js"></script>
+<script src="js/login.js"></script>
+</head>
+<body>
+    <main>
+        <div class="login-container" id="login-container">
+            <div class="form-container">
+
+                <form class="form form-login">
+
+                    <h2 class="form-title">Entrar com</h2>
+
+                    <div class="form-social">
+                        <a href="#" class="social-icon"><i class="fa-brands fa-google"></i></a>
+                    </div>
+
+                    <p class="form-text">ou utilize sua conta</p>
+
+                    <div class="form-input-container">
+                        <input type="email" id="email-login" class="form-input" placeholder="E-mail">
+                        <input type="password" id="senha-login" class="form-input" placeholder="Senha">
+                    </div>
+
+                    <a href="#" class="form-link">Esqueceu a senha?</a>
+
+                    <button type="button" class="form-button" onclick="Login()">Logar</button>
+                    <p class="mobile-text">Não tem conta?
+                        <a href="#" id="open-register-mobile">Registre-se</a>
+                    </p>
+                </form>
+                <form class="form form-register" id="cadastro-form">
+                    <h2 class="form-title">Criar Conta</h2>
+
+                    <div class="form-social">
+                        <a href="#" class="social-icon"><i class="fa-brands fa-google"></i></a>
+                    </div>
+
+                    <p class="form-text">ou cadastre seu e-mail aqui</p>
+
+                    <div id="cadastro-form" class="form-input-container">
+
+                        <input type="text" class="form-input" id="nome-registro" placeholder="Nome" required>
+                       
+                        <input type="email" class="form-input" id="email-registro" placeholder="E-mail" required>
+                        
+                        <input type="password" class="form-input" id="senha-registro" placeholder="Senha" required>
+                        <!-- <input type="password" class="form-input" id="senha-registro" placeholder="Confirmar Senha" required> -->
+                    </div>
+                    
+                    <button type="button" class="form-button"  onclick="adicionarUsuario()">Cadastrar</button>
+
+                    <p class="mobile-text">
+                        já tem conta?
+                        <a href="#" id="open-login-mobile">Login</a>
+                    </p>
+                </form>
+                <div class="overlay-container">
+                    <div class="overlay">
+                        <h2 class="form-title form-title-light">Já tem Conta?</h2>
+                        <p class="form-text">Logue e dê ao seu pet o que ele merece</p>
+                        <button class="form-button form-button-light" id="open-login">Entrar</button>
+                    </div>
+                    <div class="overlay">
+                        <h2 class="form-title form-title-light">Olá Dono!</h2>
+                        <p class="form-text">Cadastre-se e faça as compras do seu pet</p>
+                        <button type="button" class="form-button form-button-light" id="open-register">Cadastrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+
+    
+    <script src="js/LoginAndCadastro-style.js"></script>
+    <!--
+    <script src="https://www.gstatic.com/firebasejs/10.4.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.4.0/firebase-auth-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.4.0/firebase-firestore-compat.js"></script>;
+    -->
+</body>
+</html>
