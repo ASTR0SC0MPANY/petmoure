@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/logopetmoure.png" type="image">
+    <title>Coorporativas</title>
+    <link rel="shortcut icon" href="img/logopetmoure.png" type="image">
+    
+    <!-- Links utilizados para a HOMEPAGE -->
+    <link rel="stylesheet" href="css/privacidade.css">
+    <link rel="stylesheet" href="css/navbar.css">
+
+    <!-- Inclua os links para o Bootstrap CSS e JavaScript -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <!--Link usado para colocar os ícones das redes sociais que estão no site "Font Awesome"-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+    
+    <!--Link do css do Footer-->
+    <link rel="stylesheet" href="css/footer.css">
+
+    <!-- Links utilizados para o Product Cards -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <!-- Seu código HTML aqui -->
+    <header class="container-fluid text-white py-3">
+        <div class="container">
+            <div class="row align-items-center">
+                <!-- Logotipo -->
+                <div class="col-md-2 col-6 ml-0">
+                    <img src="img/logopetmoure.png" alt="Logo" class="img-fluid">
+                </div>
+                <!-- Barra de Pesquisa e Botões -->
+                <div class="col-md-8 col-6 d-flex">
+                    <form class="form-inline flex-grow-1">
+                        <input class="form-control mr-2 flex-grow-1" type="search" placeholder="Pesquise na PetMoure" aria-label="Search">
+                        <button class="btn btn-light" type="submit"><i class="fas fa-search"></i></button>
+                    </form>
+                    <button class="btn btn-light btn-sm ml-2 d-md-inline d-none" onclick="window.location.href='autenticar.html'">Login</button>
+                    <button class="btn btn-light btn-sm ml-2 d-md-inline d-none" onclick="window.location.href='autenticar.html'">Cadastro</button>
+                </div>
+                <!-- Ícone de Coração -->
+                <div class="col-md-1 col-6 text-center">
+                    <button class="btn btn btn-sm"><i class="fas fa-heart"></i></button>
+                </div>
+                <!-- Ícone de Carrinho -->
+                <div class="col-md-1 col-6 text-center">
+                    <button class="btn btn-sm"><i class="fas fa-shopping-cart"></i></button>
+                </div>
+            </div>
+
+             <!-- Navbar Responsiva -->
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" onclick="window.location.href='cachorro.html'">Cachorro</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" onclick="window.location.href='gato.html'">Gato</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" onclick="window.location.href='farmacia.html'">Farmácia</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" onclick="window.location.href='banhoetosa.html'">Banho e tosa</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" onclick="window.location.href='servicos.html'">Serviços</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" onclick="window.location.href='promocoes.html'">Promoções</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <h2>Informações Coorporativas</h2>
+
+        <div class="informes-texto">
+            <p>
+                Bem-vindo ao PetMoure, onde nos dedicamos ao cuidado e bem-estar dos animais de estimação. Nossas políticas corporativas são fundamentais para orientar nossas operações e assegurar que todos os membros da equipe estejam alinhados com os valores e objetivos do PetMoure.
+            </p>
+        </div>
+
+        <div class="informes-texto" id="etica">
+
+            <div class="titulo">
+
+                <h3 class="">1. </h3>
+                <h3>Ética e Integridade</h3>
+
+            </div>
+
+            <div class="informes">
+
+                <p class="numero" id="1.1">1.1 Conformidade Legal: </p>
+                <p>Comprometemo-nos a agir em conformidade com todas as leis e regulamentações aplicáveis relacionadas às nossas operações.</p>
+
+            </div>
+
+            <div class="informes">
+
+                <p class="numero" id="1.2">1.2 Integridade nos Negócios: </p>
+                <p>Praticamos princípios éticos nos negócios, promovendo transparência, honestidade e responsabilidade.</p>
+
+            </div>
+
+        </div>
+
+        <div class="informes-texto" id="diversidade">
+
+            <div class="titulo">
+
+                <h3 class="">2. </h3>
+                <h3>Diversidade e Inclusão</h3>
+
+            </div>
+
+            <div class="informes">
+
+                <p class="numero" id="2.1">2.1 Ambiente Inclusivo: </p>
+                <p>Valorizamos a diversidade e nos esforçamos para criar um ambiente de trabalho inclusivo, onde todos os colaboradores são respeitados e valorizados.</p>
+
+            </div>
+
+            <div class="informes">
+
+                <p class="numero" id="2.2">2.2 Oportunidades Iguais: </p>
+                <p>Comprometemo-nos a oferecer oportunidades iguais de desenvolvimento e promoção para todos os membros da equipe, independentemente de origem, gênero, orientação sexual, entre outros.</p>
+
+            </div>
+
+        </div>
+
+        <div class="informes-texto" id="hst">
+
+            <div class="titulo">
+
+                <h3 class="">3. </h3>
+                <h3>Saúde e Segurança no Trabalho</h3>
+
+            </div>
+
+            <div class="informes">
+
+                <p class="numero" id="3.1">3.1 Ambiente Seguro: </p>
+                <p>Priorizamos a segurança no local de trabalho, implementando práticas e políticas que garantam um ambiente seguro para todos os colaboradores.</p>
+
+            </div>
+
+            <div class="informes">
+
+                <p class="numero" id="3.2">3.2 Bem-Estar dos Colaboradores: </p>
+                <p>Promovemos o bem-estar físico e mental dos colaboradores, oferecendo suporte e recursos necessários.</p>
+
+            </div>
+
+        </div>
+
+
+        <div class="informes-texto" id="sustentabilidade">
+
+            <div class="titulo">
+
+                <h3 class="">4. </h3>
+                <h3>Sustentabilidade</h3>
+
+            </div>
+
+            <div class="informes">
+
+                <p class="numero" id="4.1">4.1 Responsabilidade Ambiental: </p>
+                <p>Comprometemo-nos a adotar práticas sustentáveis em nossas operações, reduzindo nosso impacto ambiental sempre que possível.</p>
+
+            </div>
+
+            <div class="informes">
+
+                <p class="numero" id="4.2">4.2 Conscientização: </p>
+                <p>Buscamos conscientizar nossos colaboradores sobre a importância da sustentabilidade e incentivamos práticas sustentáveis em suas atividades cotidianas.</p>
+
+            </div>
+
+        </div>
+        
+        <div class="informes-texto" id="desenvolvimento-profissional">
+
+            <div class="titulo">
+
+                <h3 class="">5. </h3>
+                <h3>Desenvolvimento Profissional</h3>
+
+            </div>
+
+            <div class="informes">
+
+                <p class="numero" id="5.1">5.1 Crescimento Contínuo </p>
+                <p> Oferecemos oportunidades de desenvolvimento profissional para todos os colaboradores, incentivando a aprendizagem contínua e o aprimoramento de habilidades.</p>
+
+            </div>
+
+            <div class="informes">
+
+                <p class="numero" id="5.2">5.2 Feedback Construtivo: </p>
+                <p>Encorajamos uma cultura de feedback construtivo, proporcionando avaliações regulares e apoio para o crescimento profissional.</p>
+
+            </div>
+
+        </div>
+        
+        <div class="informes-texto" id="responsabilidade-social">
+
+            <div class="titulo">
+
+                <h3 class="numero">6. </h3>
+                <h3>Responsabilidade Social</h3>
+
+            </div>
+
+            <div class="informes">
+
+                <p class="numero" id="6.1">6.1 Envolvimento na Comunidade: </p>
+                <p>Contribuímos positivamente para as comunidades em que operamos, apoiando iniciativas sociais e causas beneficentes.</p>
+
+            </div>
+
+            <div class="informes">
+
+                <p class="numero" id="6.2">6.2 Voluntariado: </p>
+                <p>Incentivamos os colaboradores a participarem de atividades voluntárias que impactem positivamente a sociedade.</p>
+
+            </div>
+
+        </div>
+        
+        <div class="informes-texto" id="confidencialidade">
+            <div class="titulo">
+
+                <h3 class="">7. </h3>
+                <h3>Confidencialidade e Proteção de Dados</h3>
+
+            </div>
+
+            <div class="informes">
+
+                <p class="numero" id="7.1">7.1 Proteção de Informações Confidenciais: </p>
+                <p>Garantimos a confidencialidade de informações sensíveis e adotamos medidas rigorosas para proteger os dados dos clientes e da empresa.</p>
+
+            </div>
+
+            <div class="informes">
+
+                <p class="numero" id="7.2">7.2 Conformidade com a Privacidade: </p>
+                <p>Comprometemo-nos a cumprir as leis de privacidade e proteger a privacidade dos clientes e colaboradores.</p>
+
+            </div>
+
+        </div>
+        
+        <div class="informes-texto" id="comunicacao-interna">
+
+            <div class="titulo">
+
+                <h3 class="">8. </h3>
+                <h3>Comunicação Interna</h3>
+
+            </div>
+
+            <div class="informes">
+
+                <p class="numero" id="8.1">8.1 Transparência: </p>
+                <p>Fomentamos uma cultura de comunicação aberta e transparente, promovendo a troca de informações e ideias entre os membros da equipe.</p>
+
+            </div>
+
+            <div class="informes">
+
+                <p class="numero" id="8.2">8.2 Colaboração: </p>
+                <p>Incentivamos a colaboração entre os diferentes departamentos, reconhecendo a importância do trabalho em equipe.</p>
+
+            </div>
+
+        </div>
+
+    </main>
+
+    <footer>
+        <div id="footer-content">
+            <div id="footer-contacts">
+                <h1>Nós</h1>
+                <p>Para ficar por dentro das novidades!</p>
+
+                <div id="footer-social-media">
+                    <a href="#" class="footer-link" id="instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="#" class="footer-link" id="whatsapp">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                    <a href="#" class="footer-link" id="facebook">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>      
+                </div>
+            </div>
+
+            <ul class="footer-list">
+                <li>
+                    <h3>Conheça-nos</h3>
+                </li>
+
+                <li>
+                    <a href="sobre.html" class="footer-link">Sobre a PetMoure</a>
+                </li>
+                <li>
+                    <a href="politicascoorporativas.html" class="footer-link">Informações Corporativas</a>
+                </li>
+                <li>
+                    <a href="politicasPetMoure.html" class="footer-link">Políticas PetMoure</a>
+                </li>
+                <li>
+                    <a href="privacidade.html" class="footer-link">Políticas de Privacidade</a>
+                </li>
+            </ul>
+
+            <ul class="footer-list">
+                <li>
+                    <h3>Meios de Pagamento</h3>
+                </li>
+ 
+                <li id="pagamentos">
+                    <i class="fa-brands fa-paypal"></i>
+                    Paypal
+                </li>
+                <li id="pagamentos">
+
+                    <i class="fa-brands fa-pix"></i>
+                    Pix
+                </li>
+            </ul>
+
+            <div id="meios-de-contato">
+                <h3>Contatos</h3>
+                <div id="contato">
+                    <p>E-mail: petmoure@gmail.com</p>
+                    <p>Telefone: (85) 98885-0079</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div id="footer-copyright">
+            &#169
+            2023 all rights reserve
+        </div>
+    </footer>
+</body>
+</html>

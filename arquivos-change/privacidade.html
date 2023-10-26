@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/logopetmoure.png" type="image">
+    <title>Sobre a PetMoure</title>
+    <link rel="shortcut icon" href="img/logopetmoure.png" type="image">
+    
+    <!-- Links utilizados para a HOMEPAGE -->
+    <link rel="stylesheet" href="css/privacidade.css">
+    <link rel="stylesheet" href="css/navbar.css">
+
+    <!-- Inclua os links para o Bootstrap CSS e JavaScript -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <!--Link usado para colocar os ícones das redes sociais que estão no site "Font Awesome"-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+    
+    <!--Link do css do Footer-->
+    <link rel="stylesheet" href="css/footer.css">
+
+    <!-- Links utilizados para o Product Cards -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <!-- Seu código HTML aqui -->
+    <header class="container-fluid text-white py-3">
+        <div class="container">
+            <div class="row align-items-center">
+                <!-- Logotipo -->
+                <div class="col-md-2 col-6 ml-0">
+                    <img src="img/logopetmoure.png" alt="Logo" class="img-fluid">
+                </div>
+                <!-- Barra de Pesquisa e Botões -->
+                <div class="col-md-8 col-6 d-flex">
+                    <form class="form-inline flex-grow-1">
+                        <input class="form-control mr-2 flex-grow-1" type="search" placeholder="Pesquise na PetMoure" aria-label="Search">
+                        <button class="btn btn-light" type="submit"><i class="fas fa-search"></i></button>
+                    </form>
+                    <button class="btn btn-light btn-sm ml-2 d-md-inline d-none" onclick="window.location.href='autenticar.html'">Login</button>
+                    <button class="btn btn-light btn-sm ml-2 d-md-inline d-none" onclick="window.location.href='autenticar.html'">Cadastro</button>
+                </div>
+                <!-- Ícone de Coração -->
+                <div class="col-md-1 col-6 text-center">
+                    <button class="btn btn btn-sm"><i class="fas fa-heart"></i></button>
+                </div>
+                <!-- Ícone de Carrinho -->
+                <div class="col-md-1 col-6 text-center">
+                    <button class="btn btn-sm"><i class="fas fa-shopping-cart"></i></button>
+                </div>
+            </div>
+
+             <!-- Navbar Responsiva -->
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" onclick="window.location.href='cachorro.html'">Cachorro</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" onclick="window.location.href='gato.html'">Gato</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" onclick="window.location.href='farmacia.html'">Farmácia</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" onclick="window.location.href='banhoetosa.html'">Banho e tosa</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" onclick="window.location.href='servicos.html'">Serviços</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" onclick="window.location.href='promocoes.html'">Promoções</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <h2>Políticas de Privacidade</h2>
+
+        <div class="informes-texto">
+            <p>
+                Bem-vindo ao PetMoure, um petshop online dedicado ao bem-estar e cuidado de seus animais de estimação. A sua privacidade é uma prioridade para nós. Esta Política de Privacidade explica como coletamos, usamos, divulgamos e protegemos as informações pessoais dos usuários do PetMoure.
+            </p>
+        </div>
+
+        <div class="informes-texto" id="informacoes-coletadas">
+
+            <div class="titulo">
+
+                <h3 class="">1. </h3>
+                <h3>Informações coletadas</h3>
+
+            </div>
+
+            <div class="informes">
+
+                <p class="numero" id="1.1">1.1 Informações de Registro: </p>
+                <p> Ao criar uma conta no PetMoure, coletamos informações como nome, endereço de e-mail e senha.</p>
+
+            </div>
+
+            <div class="informes">
+
+                <p class="numero" id="1.2">1.2 Informações de Compra: </p>
+                <p>Ao efetuar uma compra, podemos coletar informações de pagamento, endereço de entrega e detalhes dos produtos </p>
+
+            </div>
+
+            <div class="informes">
+
+                <p class="numero" id="1.3">1.3 Informações Automáticas: </p>
+                <p> Podemos coletar automaticamente informações sobre o seu dispositivo, navegador, endereço IP e padrões de uso do site.</p>
+
+            </div>
+
+        </div>
+
+        <div class="informes-texto" id="uso-das-informacoes">
+
+            <div class="titulo">
+
+                <h3 class="">2. </h3>
+                <h3>Uso das Informações</h3>
+
+            </div>
+
+            <div class="informes">
+
+                <p class="numero" id="2.1">2.1 Melhoria dos Serviços: </p>
+                <p>Utilizamos as informações coletadas para personalizar sua experiência, entender suas preferências e melhorar nossos produtos e serviços.</p>
+
+            </div>
+
+            <div class="informes">
+
+                <p class="numero" id="2.2">2.2 Processamento de Pedidos: </p>
+                <p>As informações de compra são utilizadas para processar e entregar seus pedidos com eficiência.</p>
+
+            </div>
+
+            <div class="informes">
+
+                <p class="numero" id="2.3">2.3 Comunicações: </p>
+                <p>Podemos utilizar seu endereço de e-mail para enviar informações sobre promoções, novos produtos e atualizações relevantes. Você pode optar por não receber essas comunicações.</p>
+
+            </div>
+        </div>
+
+        <div class="informes-texto" id="compartilhamento-de-informacoes">
+
+            <div class="titulo">
+
+                <h3 class="">3. </h3>
+                <h3>Compartilhamento de Infomações</h3>
+
+            </div>
+
+            <div class="informes">
+
+                <p class="numero" id="3.1">3.1 Parceiros de Serviços: </p>
+                <p>Podemos compartilhar suas informações com provedores de serviços terceirizados que nos ajudam a operar nosso site, processar transações e fornecer serviços relacionados.</p>
+
+            </div>
+
+            <div class="informes">
+
+                <p class="numero" id="3.2">3.2 Requisitos Legais: </p>
+                <p>Podemos divulgar informações pessoais em resposta a uma intimação ou quando exigido por lei.</p>
+
+            </div>
+
+        </div>
+
+
+        <div class="informes-texto" id="seguranca">
+
+            <div class="titulo">
+
+                <h3 class="">4. </h3>
+                <h3>Segurança</h3>
+
+            </div>
+
+            <div class="informes">
+
+                <p class="numero" id="4.1">4.1 Medidas de Segurança: </p>
+                <p>Implementamos medidas de segurança para proteger suas informações contra acesso não autorizado, alteração, divulgação ou destruição.</p>
+
+            </div>
+
+            <div class="informes">
+
+                <p class="numero" id="4.2">4.2 Senha: </p>
+                <p> É sua responsabilidade proteger a senha da sua conta. Recomendamos o uso de senhas fortes e a alteração regular da senha.</p>
+
+            </div>
+
+        </div>
+        
+        <div class="informes-texto" id="cookies">
+
+            <div class="titulo">
+
+                <h3 class="">5. </h3>
+                <h3>Cookies e Tecnologias Semelhantes:</h3>
+
+            </div>
+
+            <div class="informes">
+
+                <p class="numero" id="5.1">5.1 Cookies: </p>
+                <p>Utilizamos cookies e tecnologias semelhantes para melhorar a funcionalidade do site e personalizar sua experiência.</p>
+
+            </div>
+
+            <div class="informes">
+
+                <p class="numero" id="5.2">5.2 Opções do Usuário </p>
+                <p>Você pode configurar seu navegador para recusar cookies, mas isso pode afetar a funcionalidade do site.</p>
+
+            </div>
+
+        </div>
+        
+        <div class="informes-texto" id="seus-direitos">
+
+            <div class="titulo">
+
+                <h3 class="">6. </h3>
+                <h3>Seus Direitos</h3>
+
+            </div>
+
+            <div class="informes">
+
+                <p class="numero" id="6.1">6.1 Acesso e Correção: </p>
+                <p> Você tem o direito de acessar e corrigir suas informações pessoais a qualquer momento.</p>
+
+            </div>
+
+            <div class="informes">
+
+                <p class="numero" id="6.2">6.2 Exclusão de Conta: </p>
+                <p>Você pode excluir sua conta a qualquer momento, sujeito a requisitos legais.</p>
+
+            </div>
+
+        </div>
+        
+        <div class="informes-texto" id="criancas">
+
+            <div class="titulo">
+
+                <h3 class="">7. </h3>
+                <h3>Crianças</h3>
+
+            </div>
+
+            <div class="informes">
+
+                <p class="numero" id="7.1">7.1 Crianças: </p>
+                <p> Não coletamos intencionalmente informações de crianças menores de 13 anos.</p>
+
+            </div>
+
+        </div>
+        
+        <div class="informes-texto" id="alteracoes">
+
+            <div class="titulo">
+
+                <h3 class="">8. </h3>
+                <h3>Alterações na Política de Privacidade</h3>
+
+            </div>
+
+            <div class="informes">
+
+                <p class="numero" id="8.1">8.1 Parceiros de Serviços: </p>
+                <p>Notificaremos os usuários sobre alterações significativas nesta Política de Privacidade por meio do site ou por e-mail.</p>
+
+            </div>
+
+        </div>
+
+    </main>
+
+    <footer>
+        <div id="footer-content">
+            <div id="footer-contacts">
+                <h1>Nós</h1>
+                <p>Para ficar por dentro das novidades!</p>
+
+                <div id="footer-social-media">
+                    <a href="#" class="footer-link" id="instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="#" class="footer-link" id="whatsapp">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                    <a href="#" class="footer-link" id="facebook">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>      
+                </div>
+            </div>
+
+            <ul class="footer-list">
+                <li>
+                    <h3>Conheça-nos</h3>
+                </li>
+
+                <li>
+                    <a href="sobre.html" class="footer-link">Sobre a PetMoure</a>
+                </li>
+                <li>
+                    <a href="politicascoorporativas.html" class="footer-link">Informações Corporativas</a>
+                </li>
+                <li>
+                    <a href="politicasPetMoure.html" class="footer-link">Políticas PetMoure</a>
+                </li>
+                <li>
+                    <a href="privacidade.html" class="footer-link">Políticas de Privacidade</a>
+                </li>
+            </ul>
+
+            <ul class="footer-list">
+                <li>
+                    <h3>Meios de Pagamento</h3>
+                </li>
+ 
+                <li id="pagamentos">
+                    <i class="fa-brands fa-paypal"></i>
+                    Paypal
+                </li>
+                <li id="pagamentos">
+
+                    <i class="fa-brands fa-pix"></i>
+                    Pix
+                </li>
+            </ul>
+
+            <div id="meios-de-contato">
+                <h3>Contatos</h3>
+                <div id="contato">
+                    <p>E-mail: petmoure@gmail.com</p>
+                    <p>Telefone: (85) 98885-0079</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div id="footer-copyright">
+            &#169
+            2023 all rights reserve
+        </div>
+    </footer>
+
+</body>
+</html>
