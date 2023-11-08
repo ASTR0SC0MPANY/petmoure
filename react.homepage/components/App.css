@@ -1,0 +1,180 @@
+/* Estilo do HEADER */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap');
+
+.container-fluid {
+    background-color: #E6E1C8;
+}
+
+.nav-link {
+    color: #556B2F;
+    font-weight: 800;
+    font-family: 'Inter', sans-serif;
+}
+
+.form-control {
+    border-radius: 20px;
+    margin-top: -40px;
+}
+
+.fas {
+    color: black;
+}
+
+.btn {
+    margin-top: -40px;
+}
+
+.navbar {
+    margin-top: -70px;
+    margin-left: 100px;
+}
+
+/* Estilo do Product Cards */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;800&display=swap');
+
+.body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.slider {
+    width: 84%;
+    margin: 0 auto;
+}
+
+.product-card {
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: white;
+    border: 5px solid #E6E1C8;
+    margin-right: 20px;
+}
+
+.product-card img {
+    max-width: 60%;
+    height: auto;
+    margin-bottom: 10px;
+    margin-left: 50px;
+}
+
+.preço {
+    font-family: 'Inter', sans-serif;
+}
+
+.product-card p {
+    font-family: 'Inter', sans-serif;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #000000;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.produtos {
+    margin-left: 120px;
+    margin-top: 20px;
+    font-family: 'Inknut Antiqua', serif;
+    font-weight: 700;
+}
+
+/* Estilo do Carrossel */
+.carousel-item img {
+    width: 100%; /* Adjusted for responsiveness */
+    height: auto;
+    object-fit: cover;
+}
+
+/* Estilo do Footer */
+footer {
+    color: #000000;
+    padding: 20px 0;
+    background-color: #E6E1C8;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-content h2 {
+    font-family: 'Inter', sans-serif;
+}
+
+.rs {
+    display: inline;
+}
+
+.social-media,
+.payment-methods,
+.contact-info {
+    flex: 1;
+    margin: 0 20px;
+}
+
+.social-media h2,
+.payment-methods h2,
+.contact-info h2 {
+    font-size: 18px;
+}
+
+.social-media ul {
+    list-style: none;
+    padding: 0;
+}
+
+.social-media ul li {
+    margin-bottom: 10px;
+}
+
+.social-media ul li a img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.payment-methods img {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+
+h2 {
+    font-weight: 700;
+}
+
+.copy {
+    justify-content: space-between;
+    color: black;
+    text-align: center;
+    padding: 2.5rem 0;
+    border-top: 1px solid rgba(0, 0, 0, .1);
+}
+
+.copy-content {
+    flex-shrink: 0;
+    margin-right: 25px;
+}
